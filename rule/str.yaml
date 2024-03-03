@@ -1,11 +1,15 @@
 payload:
 # Youtube
   - DOMAIN-KEYWORD,googlevideo
+  - DOMAIN-KEYWORD,gvt2
+  - DOMAIN-KEYWORD,ytimg
   - DOMAIN-SUFFIX,googlevideo.com
   - DOMAIN-SUFFIX,gvt2.com
   - DOMAIN-SUFFIX,ytimg.com
   - DOMAIN,yt3.ggpht.com
   - DOMAIN-SUFFIX,ggpht.com
+  - IP-CIDR,172.110.32.0/21
+  - IP-CIDR,216.73.80.0/20
 
 #FB
   - DOMAIN-KEYWORD,xx.fbcdn.net
