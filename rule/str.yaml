@@ -14,3 +14,4 @@ payload:
 #FB
   - DOMAIN-KEYWORD,xx.fbcdn.net
   - DOMAIN-KEYWORD,fna.fbcdn.net
+  - DOMAIN-SUFFIX,iglite-z.instagram.com
