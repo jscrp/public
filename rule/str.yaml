@@ -7,7 +7,7 @@ payload:
   - DOMAIN,yt3.ggpht.com
   - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN,youtubei.googleapis.com
-  - DOMAIN-SUFFIX,.youtube.com
+#  - DOMAIN-SUFFIX,.youtube.com
   - DOMAIN-SUFFIX,.googlevideo.com
   - IP-CIDR,74.125.24.188/16
   - IP-CIDR,172.217.194.188/16
