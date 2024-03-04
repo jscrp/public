@@ -1,17 +1,26 @@
 payload:
 # Youtube
   - DOMAIN-KEYWORD,googlevideo
-  - DOMAIN-KEYWORD,gvt2
-  - DOMAIN-KEYWORD,ytimg
   - DOMAIN-SUFFIX,googlevideo.com
   - DOMAIN-SUFFIX,gvt2.com
   - DOMAIN-SUFFIX,ytimg.com
   - DOMAIN,yt3.ggpht.com
   - DOMAIN-SUFFIX,ggpht.com
-  - IP-CIDR,172.110.32.0/21
-  - IP-CIDR,216.73.80.0/20
+  - DOMAIN,youtubei.googleapis.com
+  - DOMAIN-SUFFIX,.youtube.com
+  - DOMAIN-SUFFIX,.googlevideo.com
+  - IP-CIDR,74.125.24.188/16
+  - IP-CIDR,172.217.194.188/16
+  - IP-CIDR,142.250.4.188/16
 
 #FB
   - DOMAIN-KEYWORD,xx.fbcdn.net
   - DOMAIN-KEYWORD,fna.fbcdn.net
-  - DOMAIN-SUFFIX,iglite-z.instagram.com
+  - DOMAIN-SUFFIX,fbcdn.net
+  - DOMAIN-SUFFIX,fbsbx.com
+
+  # Instagram
+  - DOMAIN-SUFFIX,cdninstagram.com
+
+  # Whatsapp
+  - DOMAIN-KEYWORD,fna.whatsapp.net
